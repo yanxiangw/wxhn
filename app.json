@@ -6,7 +6,25 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "HackerNews",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "New",
+      "iconPath": "images/hn_black.png",
+      "selectedIconPath": "images/hn_selected.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "Hot",
+      "iconPath": "images/hot_black.png",
+      "selectedIconPath": "images/hot_selected.png"
+    }],
+    "selectedColor": "#FF6C26"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
   }
 }

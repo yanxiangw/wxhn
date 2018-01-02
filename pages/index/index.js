@@ -50,5 +50,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onShareAppMessage: function() {
+    return {
+      title: '阅读Hacker News'
+    }
   }
 })
